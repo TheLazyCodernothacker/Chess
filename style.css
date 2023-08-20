@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+}
+
+h1, h2{
+    color: black;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.chessGame {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    display: flex;
+    margin-right: 1rem;
+}
+
+.navbar > div {
+    padding: 1rem 2rem;
+    background: rgb(206, 206, 206);
+    color: black;
+    border-right: 3px solid black;
+    font-size: 1.3rem;
+}
+
+.navbar > div:nth-child(1){
+    border-left: 3px solid black;
+}
+
+#canvas {
+    width: 500px;
+    height: 500px;
+}
